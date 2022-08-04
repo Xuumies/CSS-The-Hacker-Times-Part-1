@@ -7,6 +7,7 @@ li {
 
 ul {
     text-align: center;
+    padding-left: 0em;
 }
 
 a {
@@ -27,6 +28,7 @@ body {
     padding: 5em;
     box-shadow: 2px 2px 5px;
     width: 50%;
+    position: relative;
 }
 
 h1 {
@@ -86,4 +88,10 @@ p {
 .date {
     position: relative;
     top: -50px;
+}
+
+h6 {
+    position: absolute;
+    bottom: 0;
+    right: 20px;
 }
