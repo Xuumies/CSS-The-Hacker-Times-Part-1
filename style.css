@@ -22,14 +22,18 @@ body {
 .newspaper-container {
     background-color: white;
     border-radius: 1%;
-    margin: 30px;
+    margin: auto;
+    margin-top: 2em;
     padding: 5em;
     box-shadow: 2px 2px 5px;
+    width: 50%;
 }
 
 h1 {
     font-family: fantasy;
     text-align: center;
+    font-size: 4em;
+    margin-bottom: 0em;
 }
 
 h2 {
@@ -66,6 +70,7 @@ h4 {
 
 section {
     padding: 2em;
+    flex: 1;
 }
 
 main {
@@ -76,4 +81,9 @@ p {
     font-size: 1.1em;
     font-weight: 200;
     line-height: 1.3em;
+}
+
+.date {
+    position: relative;
+    top: -50px;
 }
